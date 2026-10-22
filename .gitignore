@@ -1,0 +1,11 @@
+src/
+*.py
+*.pyw
+*.pyc
+*.spec
+__pycache__/
+.env
+.env.*
+settings.json
+ui-state.json
+*.log
