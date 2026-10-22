@@ -1,0 +1,2 @@
+3721391a6d3ab3e7172855fc89add1f8142f1434b43521233cf6fc008852aa51  NTE-Guitar-v1.0-Windows.zip
+e43d1f4ef74c0b13f16f21e83dcdf57ca785626c1ee4e3f76bc6c942f44f8ceb  NTE-Guitar/NTE-Guitar.exe

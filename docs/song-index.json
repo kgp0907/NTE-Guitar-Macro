@@ -1,0 +1,263 @@
+[
+  {
+    "order": 1,
+    "slot": 44,
+    "artist": "Afterglow",
+    "title": "That Is How I Roll!",
+    "version": "",
+    "tone": "디스토션",
+    "key": "Numpad 1"
+  },
+  {
+    "order": 2,
+    "slot": 24,
+    "artist": "DEPAPEPE",
+    "title": "START",
+    "version": "",
+    "tone": "클린톤",
+    "key": "Numpad 2"
+  },
+  {
+    "order": 3,
+    "slot": 37,
+    "artist": "Guns N' Roses",
+    "title": "Welcome to the Jungle",
+    "version": "기타·멜로디",
+    "tone": "디스토션",
+    "key": "Numpad 3"
+  },
+  {
+    "order": 4,
+    "slot": 4,
+    "artist": "Hidekazu Sakamoto",
+    "title": "Chasing Kou (물에 빠진 나이프)",
+    "version": "",
+    "tone": "디스토션",
+    "key": "Numpad 4"
+  },
+  {
+    "order": 5,
+    "slot": 3,
+    "artist": "Lynyrd Skynyrd",
+    "title": "Free Bird",
+    "version": "",
+    "tone": "디스토션",
+    "key": "Numpad 5"
+  },
+  {
+    "order": 6,
+    "slot": 25,
+    "artist": "Mrs. GREEN APPLE",
+    "title": "라일락",
+    "version": "",
+    "tone": "디스토션",
+    "key": "Numpad 6"
+  },
+  {
+    "order": 7,
+    "slot": 40,
+    "artist": "MyGO!!!!!",
+    "title": "마요이우타 (迷星叫)",
+    "version": "기타·멜로디",
+    "tone": "디스토션",
+    "key": "Numpad 7"
+  },
+  {
+    "order": 8,
+    "slot": 29,
+    "artist": "Orangestar",
+    "title": "Henceforth",
+    "version": "",
+    "tone": "디스토션",
+    "key": "Numpad 8"
+  },
+  {
+    "order": 9,
+    "slot": 36,
+    "artist": "Orangestar",
+    "title": "Henceforth (songparts.com)",
+    "version": "",
+    "tone": "디스토션",
+    "key": "Numpad 9"
+  },
+  {
+    "order": 10,
+    "slot": 50,
+    "artist": "Poppin'Party",
+    "title": "八月のif",
+    "version": "",
+    "tone": "디스토션",
+    "key": "Ctrl+Numpad 1"
+  },
+  {
+    "order": 11,
+    "slot": 33,
+    "artist": "RADWIMPS",
+    "title": "전전전세",
+    "version": "",
+    "tone": "디스토션",
+    "key": "Ctrl+Numpad 2"
+  },
+  {
+    "order": 12,
+    "slot": 51,
+    "artist": "Roselia",
+    "title": "Determination Symphony",
+    "version": "",
+    "tone": "디스토션",
+    "key": "Ctrl+Numpad 3"
+  },
+  {
+    "order": 13,
+    "slot": 11,
+    "artist": "tuki.",
+    "title": "사랑의 유통기한",
+    "version": "",
+    "tone": "디스토션",
+    "key": "Ctrl+Numpad 4"
+  },
+  {
+    "order": 14,
+    "slot": 30,
+    "artist": "YOASOBI",
+    "title": "밤을 달리다",
+    "version": "",
+    "tone": "디스토션",
+    "key": "Ctrl+Numpad 5"
+  },
+  {
+    "order": 15,
+    "slot": 38,
+    "artist": "결속 밴드",
+    "title": "Distortion!!",
+    "version": "기타·멜로디",
+    "tone": "디스토션",
+    "key": "Ctrl+Numpad 6"
+  },
+  {
+    "order": 16,
+    "slot": 19,
+    "artist": "결속 밴드",
+    "title": "별자리가 될 수 있다면",
+    "version": "",
+    "tone": "디스토션",
+    "key": "Ctrl+Numpad 7"
+  },
+  {
+    "order": 17,
+    "slot": 8,
+    "artist": "결속 밴드",
+    "title": "봇치 솔로 → 그 밴드",
+    "version": "",
+    "tone": "디스토션",
+    "key": "Ctrl+Numpad 8"
+  },
+  {
+    "order": 18,
+    "slot": 2,
+    "artist": "결속 밴드",
+    "title": "청춘 콤플렉스",
+    "version": "기타 중심",
+    "tone": "디스토션",
+    "key": "Ctrl+Numpad 9"
+  },
+  {
+    "order": 19,
+    "slot": 18,
+    "artist": "결속 밴드",
+    "title": "청춘 콤플렉스",
+    "version": "합주",
+    "tone": "디스토션",
+    "key": "Alt+Numpad 1"
+  },
+  {
+    "order": 20,
+    "slot": 45,
+    "artist": "결속 밴드",
+    "title": "카라카라",
+    "version": "",
+    "tone": "디스토션",
+    "key": "Alt+Numpad 2"
+  },
+  {
+    "order": 21,
+    "slot": 31,
+    "artist": "방과 후 티타임",
+    "title": "Don't say \"lazy\"",
+    "version": "",
+    "tone": "디스토션",
+    "key": "Alt+Numpad 3"
+  },
+  {
+    "order": 22,
+    "slot": 27,
+    "artist": "방과 후 티타임",
+    "title": "NO, Thank You!",
+    "version": "",
+    "tone": "디스토션",
+    "key": "Alt+Numpad 4"
+  },
+  {
+    "order": 23,
+    "slot": 21,
+    "artist": "오시오 코타로",
+    "title": "Big Blue Ocean",
+    "version": "",
+    "tone": "클린톤",
+    "key": "Alt+Numpad 5"
+  },
+  {
+    "order": 24,
+    "slot": 10,
+    "artist": "요루시카",
+    "title": "봄도둑",
+    "version": "",
+    "tone": "클린톤",
+    "key": "Alt+Numpad 6"
+  },
+  {
+    "order": 25,
+    "slot": 26,
+    "artist": "요루시카",
+    "title": "꽃에 망령",
+    "version": "",
+    "tone": "디스토션",
+    "key": "Alt+Numpad 7"
+  },
+  {
+    "order": 26,
+    "slot": 15,
+    "artist": "요루시카",
+    "title": "말해줘",
+    "version": "",
+    "tone": "디스토션",
+    "key": "Alt+Numpad 8"
+  },
+  {
+    "order": 27,
+    "slot": 28,
+    "artist": "유우리",
+    "title": "회전목마",
+    "version": "",
+    "tone": "디스토션",
+    "key": "Alt+Numpad 9"
+  },
+  {
+    "order": 28,
+    "slot": 23,
+    "artist": "토게나시토게아리",
+    "title": "잡답, 우리들의 거리",
+    "version": "",
+    "tone": "디스토션",
+    "key": "Ctrl+Alt+Numpad 1"
+  },
+  {
+    "order": 29,
+    "slot": 39,
+    "artist": "히라노 아야",
+    "title": "God knows...",
+    "version": "기타·멜로디",
+    "tone": "디스토션",
+    "key": "Ctrl+Alt+Numpad 2"
+  }
+]
