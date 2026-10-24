@@ -1,0 +1,179 @@
+{
+  "version": "1.4.3",
+  "source_checks": [
+    {
+      "name": "playback",
+      "passed": true
+    },
+    {
+      "name": "sharing",
+      "passed": true
+    },
+    {
+      "name": "maintenance",
+      "passed": true
+    },
+    {
+      "name": "online",
+      "passed": true
+    },
+    {
+      "name": "submission",
+      "passed": true
+    },
+    {
+      "name": "ui-polish",
+      "passed": true
+    },
+    {
+      "name": "remote-playback",
+      "passed": true
+    },
+    {
+      "name": "remote-session",
+      "passed": true
+    },
+    {
+      "name": "offline-playback",
+      "passed": true
+    }
+  ],
+  "executable_checks": [
+    {
+      "name": "playback",
+      "passed": true
+    },
+    {
+      "name": "sharing",
+      "passed": true
+    },
+    {
+      "name": "maintenance",
+      "passed": true
+    },
+    {
+      "name": "online",
+      "passed": true
+    },
+    {
+      "name": "submission",
+      "passed": true
+    },
+    {
+      "name": "ui-polish",
+      "passed": true
+    },
+    {
+      "name": "remote-playback",
+      "passed": true
+    },
+    {
+      "name": "remote-session",
+      "passed": true
+    },
+    {
+      "name": "offline-playback",
+      "passed": true
+    }
+  ],
+  "source_modules_match_executable": 75,
+  "hud_layout_cases": [
+    {
+      "language": "ko",
+      "size": 100,
+      "width": 340,
+      "height": 221,
+      "hint_bottom": 207
+    },
+    {
+      "language": "ko",
+      "size": 120,
+      "width": 408,
+      "height": 264,
+      "hint_bottom": 250
+    },
+    {
+      "language": "ko",
+      "size": 140,
+      "width": 476,
+      "height": 308,
+      "hint_bottom": 294
+    },
+    {
+      "language": "en",
+      "size": 100,
+      "width": 398,
+      "height": 221,
+      "hint_bottom": 207
+    },
+    {
+      "language": "en",
+      "size": 120,
+      "width": 449,
+      "height": 264,
+      "hint_bottom": 250
+    },
+    {
+      "language": "en",
+      "size": 140,
+      "width": 551,
+      "height": 308,
+      "hint_bottom": 294
+    },
+    {
+      "language": "ja",
+      "size": 100,
+      "width": 380,
+      "height": 221,
+      "hint_bottom": 207
+    },
+    {
+      "language": "ja",
+      "size": 120,
+      "width": 428,
+      "height": 264,
+      "hint_bottom": 250
+    },
+    {
+      "language": "ja",
+      "size": 140,
+      "width": 524,
+      "height": 308,
+      "hint_bottom": 294
+    },
+    {
+      "language": "zh",
+      "size": 100,
+      "width": 340,
+      "height": 221,
+      "hint_bottom": 207
+    },
+    {
+      "language": "zh",
+      "size": 120,
+      "width": 408,
+      "height": 264,
+      "hint_bottom": 250
+    },
+    {
+      "language": "zh",
+      "size": 140,
+      "width": 476,
+      "height": 308,
+      "hint_bottom": 294
+    }
+  ],
+  "default_data": {
+    "songs": 29,
+    "original_midis": 9,
+    "source_default_bytes_identical": true,
+    "default_settings_bytes_identical": true,
+    "no_personal_cache_receipts_or_development_tree": true,
+    "bundled_internal_self_test_fixtures_allowed": true
+  },
+  "user_data_files_preserved_byte_for_byte": 18,
+  "zip_integrity_and_paths_verified": true,
+  "real_game_playback_tested": false,
+  "real_audio_tested": false,
+  "physical_monitor_dpi_changes_tested": false
+}

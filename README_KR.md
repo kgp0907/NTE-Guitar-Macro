@@ -2,11 +2,23 @@
 
 **Neverness to Everness Guitar Auto Player · 이환 기타 자동 연주**
 
-[English](README.md) · [Windows v1.0 다운로드](https://github.com/kgp0907/NTE-Guitar-Macro/releases) · [29곡 목록](docs/SONGS.md)
+[English](README.md) · [Windows v1.4.3 다운로드](https://github.com/kgp0907/NTE-Guitar-Macro/releases/tag/v1.4.3) · [29곡 목록](docs/SONGS.md)
 
 MIDI에서 연주할 파트를 고르고, 미리 들은 뒤 단축키로 게임의 기타를 연주하는 Windows 프로그램입니다. 압축을 풀면 Python 설치 없이 실행할 수 있습니다.
 
 ![메인 화면](screenshots/main.jpg)
+
+## 다운로드
+
+| 사용자 | 받을 파일 |
+| --- | --- |
+| 처음 사용하는 경우 | [1.4.3 신규 설치 ZIP](https://github.com/kgp0907/NTE-Guitar-Macro/releases/download/v1.4.3/NTE-Guitar-v1.4.3-Windows.zip) — 기존 기본 29곡 포함 |
+| 기존 곡·설정을 유지해 업데이트 | [1.4.3 업데이트 ZIP](https://github.com/kgp0907/NTE-Guitar-Macro/releases/download/v1.4.3/NTE-Guitar-v1.4.3-Update-Windows.zip) |
+| 이전 버전 | [v1.0 ZIP](https://github.com/kgp0907/NTE-Guitar-Macro/releases/download/v1.0/NTE-Guitar-v1.0-Windows.zip) · [v1.0 릴리스](https://github.com/kgp0907/NTE-Guitar-Macro/releases/tag/v1.0) |
+
+[첫 배포 이후 변경 내역](docs/CHANGES-v1.4.3-KR.md) · [공유곡 사용법](docs/SHARED-SONGS-KR.md) · [검증 결과](docs/VALIDATION-v1.4.3-KR.md)
+
+기존 v1.0 릴리스와 고정 다운로드 주소는 계속 제공합니다.
 
 ## 주요 기능
 
@@ -15,20 +27,22 @@ MIDI에서 연주할 파트를 고르고, 미리 들은 뒤 단축키로 게임�
 - 파트별·편곡 미리 듣기, 편곡 프리셋, 화음 수 제한과 음역 보정
 - 재생 막대의 원하는 곳을 클릭해 이동하고 그 위치부터 이어 연주
 - 길게 누르는 음과 빠른 연타의 누름·해제 간격 보정
-- 미니 HUD, 곡 정보 수정, 삭제·복원, 한국어·영어·일본어·중국어 UI
+- 미니 HUD의 재생/이어하기 · 일시정지 · 정지 버튼 분리, 문구가 바뀌어도 너비·위치 고정
+- 곡 정보 수정, 삭제·복원, 한국어·영어·일본어·중국어 UI
+- 허용된 공유곡 온라인 연주, 파일 추가 허용곡의 `.nteplay` 수신과 오프라인 단축키 연주
 - 곡 오른쪽 클릭 → **단축키 변경**, 중복 즉시 안내와 빈 키 버튼
 - 언제든 **F8 긴급 정지**
 
 ## 처음 실행하기
 
-1. [Releases](https://github.com/kgp0907/NTE-Guitar-Macro/releases)에서 **NTE-Guitar-v1.0-Windows.zip**을 받습니다.
+1. [Releases](https://github.com/kgp0907/NTE-Guitar-Macro/releases)에서 **NTE-Guitar-v1.4.3-Windows.zip**을 받습니다.
 2. ZIP을 **모두 압축 풀기** 합니다. `NTE-Guitar.exe`, `_internal`, `songs`, `sources`를 함께 보관하세요.
 3. 게임의 기타 연주 화면을 열고 기본 음표 키 배치를 사용합니다. **NumLock**을 켜세요.
 4. `NTE-Guitar.exe`를 실행하고 곡을 고릅니다. 추천 톤은 게임에서 직접 선택합니다.
 5. **게임은 화면 앞에 두고**, 프로그램만 최소화하거나 미니 HUD를 사용합니다.
 6. 목록의 곡 단축키를 누르면 처음부터 연주합니다. 언제든 **F8**로 정지합니다.
 
-기존 버전을 업데이트할 때는 프로그램을 완전히 종료하고, 개인 `songs`, `sources`, `settings.json`, `ui-state.json`을 백업하세요. 이번 ZIP의 기본 곡·단축키를 쓰려면 새 폴더에 압축을 푸는 방법이 가장 간단합니다.
+**기존 사용자는 업데이트 ZIP을 사용하세요.** 트레이에서 프로그램을 완전히 종료하고 기존 폴더를 백업한 다음, 업데이트 ZIP 안 `NTE-Guitar` 폴더의 내용을 기존 폴더에 병합합니다. `NTE-Guitar.exe`와 `_internal`을 함께 교체하세요. 기존 폴더와 `songs`, `sources`, `settings.json`, `ui-state.json`을 삭제하지 마세요. 신규 설치 ZIP의 기본 곡·설정을 기존 사용자 폴더에 덮어쓰지 마세요.
 
 ## 기본 단축키
 
@@ -51,6 +65,16 @@ Num은 **키보드 오른쪽 숫자패드**입니다. 위쪽 숫자열과 다릅
 ## 원하는 부분부터 연주하기
 
 곡을 고른 뒤 재생 막대의 빈 곳을 클릭하거나 손잡이를 끌어 위치를 정합니다. 게임으로 돌아와 **F6**을 누르면 그 위치부터 시작합니다. 곡별 단축키는 처음부터 시작하므로 중간 재개에는 F6을 사용하세요.
+
+## 공유곡 추가·오프라인 연주
+
+**공유 곡 보기 → 파일 추가 허용 곡 → 내 곡에 추가**로 받은 뒤 곡을 우클릭해 단축키를 지정합니다. 원본 MIDI 대신 저장된 최종 연주 결과만 담은 `.nteplay` 파일을 받으며, 인터넷 없이 기존 곡 목록에서 연주합니다. 원본 파트 재편곡과 MIDI 내보내기는 제공하지 않습니다. 온라인 연주만 허용된 곡은 파일 추가 버튼이 비활성화됩니다.
+
+## 미니모드에서 잠시 멈추기
+
+**일시정지**는 위치를 유지하며, **이어하기**를 누르면 그곳부터 계속 연주합니다. 기본 **Num .**도 일시정지·재개입니다. **F8/정지**는 완전 정지로, 로컬 곡은 처음으로 돌아갑니다. 온라인 전용 곡은 완전 정지 시 세션이 정리되므로 공유창에서 다시 불러오세요.
+
+세 버튼은 처음부터 현재 언어의 가장 긴 문구가 들어갈 만큼 같은 너비를 확보합니다. 글자가 바뀌어도 옆 버튼이 움직이지 않습니다.
 
 ## MIDI 추가·편집
 
@@ -77,7 +101,7 @@ PC 미리 듣기는 MIDI 소리여서 게임 소리와 다릅니다. 게임에�
 
 ![미니 HUD](screenshots/hud.jpg)
 
-실제 프로그램 UI를 게임 입력·전역 단축키를 끈 문서 촬영 세션에서 캡처했습니다. 배포 실행파일은 정상 연주 기능을 사용합니다.
+위 스크린샷은 첫 배포 당시 실제 UI를 게임 입력·전역 단축키를 끄고 촬영한 이미지입니다. 현재 미니모드는 재생/이어하기·일시정지·정지 세 버튼과 고정 너비를 사용합니다.
 
 ## 배포 구성
 
