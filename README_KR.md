@@ -2,7 +2,7 @@
 
 **Neverness to Everness Guitar Auto Player · 이환 기타 자동 연주**
 
-[English](README.md) · [Windows v1.4.4 다운로드](https://github.com/kgp0907/NTE-Guitar-Macro/releases/tag/v1.4.4) · [29곡 목록](docs/SONGS.md)
+[English](README.md) · [Windows v1.4.5 다운로드](https://github.com/kgp0907/NTE-Guitar-Macro/releases/tag/v1.4.5) · [29곡 목록](docs/SONGS.md)
 
 MIDI에서 연주할 파트를 고르고, 미리 들은 뒤 단축키로 게임의 기타를 연주하는 Windows 프로그램입니다. 압축을 풀면 Python 설치 없이 실행할 수 있습니다.
 
@@ -12,17 +12,17 @@ MIDI에서 연주할 파트를 고르고, 미리 들은 뒤 단축키로 게임�
 
 | 사용자 | 받을 파일 |
 | --- | --- |
-| 처음 사용하는 경우 | [1.4.4 신규 설치 ZIP](https://github.com/kgp0907/NTE-Guitar-Macro/releases/download/v1.4.4/NTE-Guitar-v1.4.4-Windows.zip) — 기존 기본 29곡 포함 |
-| 기존 곡·설정을 유지해 업데이트 | [1.4.4 업데이트 ZIP](https://github.com/kgp0907/NTE-Guitar-Macro/releases/download/v1.4.4/NTE-Guitar-v1.4.4-Update-Windows.zip) |
+| 처음 사용하는 경우 | [1.4.5 신규 설치 ZIP](https://github.com/kgp0907/NTE-Guitar-Macro/releases/download/v1.4.5/NTE-Guitar-v1.4.5-Windows.zip) — 기존 기본 29곡 포함 |
+| 기존 곡·설정을 유지해 업데이트 | [1.4.5 업데이트 ZIP](https://github.com/kgp0907/NTE-Guitar-Macro/releases/download/v1.4.5/NTE-Guitar-v1.4.5-Update-Windows.zip) |
 | 이전 버전 | [v1.0 ZIP](https://github.com/kgp0907/NTE-Guitar-Macro/releases/download/v1.0/NTE-Guitar-v1.0-Windows.zip) · [v1.0 릴리스](https://github.com/kgp0907/NTE-Guitar-Macro/releases/tag/v1.0) |
 
-[첫 배포 이후 변경 내역](docs/CHANGES-v1.4.4-KR.md) · [공유곡 사용법](docs/SHARED-SONGS-KR.md) · [검증 결과](docs/VALIDATION-v1.4.4-KR.md)
+[첫 배포 이후 변경 내역](docs/CHANGES-v1.4.5-KR.md) · [공유곡 사용법](docs/SHARED-SONGS-KR.md) · [검증 결과](docs/VALIDATION-v1.4.5-KR.md)
 
 기존 v1.0 릴리스와 고정 다운로드 주소는 계속 제공합니다.
 
-## 1.4.4 오류 수정
+## 1.4.5 화면 개선
 
-빈 폴더에서 공유곡을 추가한 뒤 다시 켜면 단축키 설정을 읽을 수 없다고 뜨던 초기 설정 저장 오류를 수정했습니다. [원인·수정 및 이미 발생한 경우의 안내](docs/VALIDATION-v1.4.4-KR.md)를 확인하세요.
+공유 신청 창을 세로로 늘리고, 작은 화면에서도 아래 신청·취소 버튼이 보이도록 배치를 조정했습니다. [변경 및 검증 결과](docs/VALIDATION-v1.4.5-KR.md)를 확인하세요.
 
 ## 주요 기능
 
@@ -39,7 +39,7 @@ MIDI에서 연주할 파트를 고르고, 미리 들은 뒤 단축키로 게임�
 
 ## 처음 실행하기
 
-1. [Releases](https://github.com/kgp0907/NTE-Guitar-Macro/releases)에서 **NTE-Guitar-v1.4.4-Windows.zip**을 받습니다.
+1. [Releases](https://github.com/kgp0907/NTE-Guitar-Macro/releases)에서 **NTE-Guitar-v1.4.5-Windows.zip**을 받습니다.
 2. ZIP을 **모두 압축 풀기** 합니다. `NTE-Guitar.exe`, `_internal`, `songs`, `sources`를 함께 보관하세요.
 3. 게임의 기타 연주 화면을 열고 기본 음표 키 배치를 사용합니다. **NumLock**을 켜세요.
 4. `NTE-Guitar.exe`를 실행하고 곡을 고릅니다. 추천 톤은 게임에서 직접 선택합니다.

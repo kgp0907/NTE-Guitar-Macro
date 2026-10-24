@@ -2,7 +2,7 @@
 
 **Neverness to Everness Guitar Auto Player**
 
-[한국어 설명](README_KR.md) · [Download Windows v1.4.4](https://github.com/kgp0907/NTE-Guitar-Macro/releases/tag/v1.4.4) · [Song list](docs/SONGS.md)
+[한국어 설명](README_KR.md) · [Download Windows v1.4.5](https://github.com/kgp0907/NTE-Guitar-Macro/releases/tag/v1.4.5) · [Song list](docs/SONGS.md)
 
 A portable Windows player for the in-game guitar. Import a MIDI file, choose the musical parts, preview the arrangement, and play through customizable hotkeys.
 
@@ -12,17 +12,17 @@ A portable Windows player for the in-game guitar. Import a MIDI file, choose the
 
 | User | Download |
 | --- | --- |
-| New installation | [v1.4.4 Windows ZIP](https://github.com/kgp0907/NTE-Guitar-Macro/releases/download/v1.4.4/NTE-Guitar-v1.4.4-Windows.zip) — includes the existing 29 default arrangements |
-| Existing installation | [v1.4.4 Update ZIP](https://github.com/kgp0907/NTE-Guitar-Macro/releases/download/v1.4.4/NTE-Guitar-v1.4.4-Update-Windows.zip) — preserves your songs, MIDI files and settings |
+| New installation | [v1.4.5 Windows ZIP](https://github.com/kgp0907/NTE-Guitar-Macro/releases/download/v1.4.5/NTE-Guitar-v1.4.5-Windows.zip) — includes the existing 29 default arrangements |
+| Existing installation | [v1.4.5 Update ZIP](https://github.com/kgp0907/NTE-Guitar-Macro/releases/download/v1.4.5/NTE-Guitar-v1.4.5-Update-Windows.zip) — preserves your songs, MIDI files and settings |
 | Previous version | [v1.0 Windows ZIP](https://github.com/kgp0907/NTE-Guitar-Macro/releases/download/v1.0/NTE-Guitar-v1.0-Windows.zip) · [v1.0 release](https://github.com/kgp0907/NTE-Guitar-Macro/releases/tag/v1.0) |
 
 For updates, fully exit the player, back up the existing folder, and merge the update ZIP's `NTE-Guitar` contents into that folder. Replace the EXE and `_internal` together. Keep `songs`, `sources`, `settings.json` and `ui-state.json`; do not delete the installation folder. Use the full ZIP for a fresh installation.
 
-[Changes since v1.0](docs/CHANGES-v1.4.4-KR.md) · [Shared songs guide](docs/SHARED-SONGS-KR.md) · [Verification](docs/VALIDATION-v1.4.4-KR.md)
+[Changes since v1.0](docs/CHANGES-v1.4.5-KR.md) · [Shared songs guide](docs/SHARED-SONGS-KR.md) · [Verification](docs/VALIDATION-v1.4.5-KR.md)
 
-## 1.4.4 fix
+## 1.4.5 interface update
 
-Fixed missing initial shortcut settings after importing a first song into an empty update-only folder and restarting. See the [fix and existing affected-folder guidance](docs/VALIDATION-v1.4.4-KR.md).
+The sharing submission dialog is taller, with the footer kept inside the available work area on smaller displays. See the [change and verification details](docs/VALIDATION-v1.4.5-KR.md).
 
 ## Features
 
@@ -38,7 +38,7 @@ Fixed missing initial shortcut settings after importing a first song into an emp
 
 ## Quick start
 
-1. Download **NTE-Guitar-v1.4.4-Windows.zip** from [Releases](https://github.com/kgp0907/NTE-Guitar-Macro/releases).
+1. Download **NTE-Guitar-v1.4.5-Windows.zip** from [Releases](https://github.com/kgp0907/NTE-Guitar-Macro/releases).
 2. Extract the entire ZIP to a writable folder. Keep `NTE-Guitar.exe` and `_internal` together. Python is not required.
 3. Open the game's guitar screen, keep its default note bindings, and turn **NumLock on**.
 4. Run `NTE-Guitar.exe`, choose a song, and set the recommended tone in the game manually.
@@ -99,7 +99,7 @@ Screenshots are from the initial release, captured with game input and global ho
 README.md / README_KR.md   Project introduction
 screenshots/              Application screenshots
 docs/                     Song list, credits and release notes
-GitHub Releases           NTE-Guitar-v1.4.4-Windows.zip
+GitHub Releases           NTE-Guitar-v1.4.5-Windows.zip
 ```
 
 The Windows release includes the latest cumulative Fix5 executable. Application source code and repair scripts are kept private and are not included in this public repository or its downloads.

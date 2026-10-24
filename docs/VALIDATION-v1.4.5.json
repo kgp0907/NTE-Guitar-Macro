@@ -1,0 +1,293 @@
+{
+  "version": "1.4.5",
+  "source_checks": [
+    {
+      "name": "playback",
+      "passed": true
+    },
+    {
+      "name": "sharing",
+      "passed": true
+    },
+    {
+      "name": "maintenance",
+      "passed": true
+    },
+    {
+      "name": "online",
+      "passed": true
+    },
+    {
+      "name": "submission",
+      "passed": true
+    },
+    {
+      "name": "ui-polish",
+      "passed": true
+    },
+    {
+      "name": "remote-playback",
+      "passed": true
+    },
+    {
+      "name": "remote-session",
+      "passed": true
+    },
+    {
+      "name": "offline-playback",
+      "passed": true
+    }
+  ],
+  "executable_checks": [
+    {
+      "name": "playback",
+      "passed": true
+    },
+    {
+      "name": "sharing",
+      "passed": true
+    },
+    {
+      "name": "maintenance",
+      "passed": true
+    },
+    {
+      "name": "online",
+      "passed": true
+    },
+    {
+      "name": "submission",
+      "passed": true
+    },
+    {
+      "name": "ui-polish",
+      "passed": true
+    },
+    {
+      "name": "remote-playback",
+      "passed": true
+    },
+    {
+      "name": "remote-session",
+      "passed": true
+    },
+    {
+      "name": "offline-playback",
+      "passed": true
+    }
+  ],
+  "source_modules_match_executable": 75,
+  "submission_window_layout": {
+    "success": true,
+    "cases": [
+      {
+        "language": "ko",
+        "simulated_tk_scale": 1.0,
+        "work_area_height": 1040,
+        "client_height": 820,
+        "all_three_footer_buttons_visible": true,
+        "outer_window_fits_work_area": true
+      },
+      {
+        "language": "ko",
+        "simulated_tk_scale": 1.0,
+        "work_area_height": 720,
+        "client_height": 681,
+        "all_three_footer_buttons_visible": true,
+        "outer_window_fits_work_area": true
+      },
+      {
+        "language": "ko",
+        "simulated_tk_scale": 1.25,
+        "work_area_height": 1040,
+        "client_height": 820,
+        "all_three_footer_buttons_visible": true,
+        "outer_window_fits_work_area": true
+      },
+      {
+        "language": "ko",
+        "simulated_tk_scale": 1.25,
+        "work_area_height": 720,
+        "client_height": 681,
+        "all_three_footer_buttons_visible": true,
+        "outer_window_fits_work_area": true
+      },
+      {
+        "language": "ko",
+        "simulated_tk_scale": 1.5,
+        "work_area_height": 1040,
+        "client_height": 820,
+        "all_three_footer_buttons_visible": true,
+        "outer_window_fits_work_area": true
+      },
+      {
+        "language": "ko",
+        "simulated_tk_scale": 1.5,
+        "work_area_height": 720,
+        "client_height": 681,
+        "all_three_footer_buttons_visible": true,
+        "outer_window_fits_work_area": true
+      },
+      {
+        "language": "en",
+        "simulated_tk_scale": 1.0,
+        "work_area_height": 1040,
+        "client_height": 820,
+        "all_three_footer_buttons_visible": true,
+        "outer_window_fits_work_area": true
+      },
+      {
+        "language": "en",
+        "simulated_tk_scale": 1.0,
+        "work_area_height": 720,
+        "client_height": 681,
+        "all_three_footer_buttons_visible": true,
+        "outer_window_fits_work_area": true
+      },
+      {
+        "language": "en",
+        "simulated_tk_scale": 1.25,
+        "work_area_height": 1040,
+        "client_height": 820,
+        "all_three_footer_buttons_visible": true,
+        "outer_window_fits_work_area": true
+      },
+      {
+        "language": "en",
+        "simulated_tk_scale": 1.25,
+        "work_area_height": 720,
+        "client_height": 681,
+        "all_three_footer_buttons_visible": true,
+        "outer_window_fits_work_area": true
+      },
+      {
+        "language": "en",
+        "simulated_tk_scale": 1.5,
+        "work_area_height": 1040,
+        "client_height": 820,
+        "all_three_footer_buttons_visible": true,
+        "outer_window_fits_work_area": true
+      },
+      {
+        "language": "en",
+        "simulated_tk_scale": 1.5,
+        "work_area_height": 720,
+        "client_height": 681,
+        "all_three_footer_buttons_visible": true,
+        "outer_window_fits_work_area": true
+      },
+      {
+        "language": "ja",
+        "simulated_tk_scale": 1.0,
+        "work_area_height": 1040,
+        "client_height": 820,
+        "all_three_footer_buttons_visible": true,
+        "outer_window_fits_work_area": true
+      },
+      {
+        "language": "ja",
+        "simulated_tk_scale": 1.0,
+        "work_area_height": 720,
+        "client_height": 681,
+        "all_three_footer_buttons_visible": true,
+        "outer_window_fits_work_area": true
+      },
+      {
+        "language": "ja",
+        "simulated_tk_scale": 1.25,
+        "work_area_height": 1040,
+        "client_height": 820,
+        "all_three_footer_buttons_visible": true,
+        "outer_window_fits_work_area": true
+      },
+      {
+        "language": "ja",
+        "simulated_tk_scale": 1.25,
+        "work_area_height": 720,
+        "client_height": 681,
+        "all_three_footer_buttons_visible": true,
+        "outer_window_fits_work_area": true
+      },
+      {
+        "language": "ja",
+        "simulated_tk_scale": 1.5,
+        "work_area_height": 1040,
+        "client_height": 820,
+        "all_three_footer_buttons_visible": true,
+        "outer_window_fits_work_area": true
+      },
+      {
+        "language": "ja",
+        "simulated_tk_scale": 1.5,
+        "work_area_height": 720,
+        "client_height": 681,
+        "all_three_footer_buttons_visible": true,
+        "outer_window_fits_work_area": true
+      },
+      {
+        "language": "zh",
+        "simulated_tk_scale": 1.0,
+        "work_area_height": 1040,
+        "client_height": 820,
+        "all_three_footer_buttons_visible": true,
+        "outer_window_fits_work_area": true
+      },
+      {
+        "language": "zh",
+        "simulated_tk_scale": 1.0,
+        "work_area_height": 720,
+        "client_height": 681,
+        "all_three_footer_buttons_visible": true,
+        "outer_window_fits_work_area": true
+      },
+      {
+        "language": "zh",
+        "simulated_tk_scale": 1.25,
+        "work_area_height": 1040,
+        "client_height": 820,
+        "all_three_footer_buttons_visible": true,
+        "outer_window_fits_work_area": true
+      },
+      {
+        "language": "zh",
+        "simulated_tk_scale": 1.25,
+        "work_area_height": 720,
+        "client_height": 681,
+        "all_three_footer_buttons_visible": true,
+        "outer_window_fits_work_area": true
+      },
+      {
+        "language": "zh",
+        "simulated_tk_scale": 1.5,
+        "work_area_height": 1040,
+        "client_height": 820,
+        "all_three_footer_buttons_visible": true,
+        "outer_window_fits_work_area": true
+      },
+      {
+        "language": "zh",
+        "simulated_tk_scale": 1.5,
+        "work_area_height": 720,
+        "client_height": 681,
+        "all_three_footer_buttons_visible": true,
+        "outer_window_fits_work_area": true
+      }
+    ],
+    "keyboard_input_sent": false,
+    "network_used": false,
+    "physical_monitor_dpi_changed": false
+  },
+  "default_data": {
+    "songs": 29,
+    "original_midis": 9,
+    "source_default_bytes_identical": true,
+    "default_settings_bytes_identical": true,
+    "no_personal_cache_receipts_or_development_tree": true,
+    "bundled_internal_self_test_fixtures_allowed": true
+  },
+  "user_data_files_preserved_byte_for_byte": 18,
+  "zip_integrity_and_paths_verified": true,
+  "real_game_playback_tested": false,
+  "real_audio_tested": false,
+  "server_changed": false
+}
