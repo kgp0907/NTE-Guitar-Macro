@@ -1,0 +1,101 @@
+{
+  "version": "1.4.4",
+  "source_checks": [
+    {
+      "name": "playback",
+      "passed": true
+    },
+    {
+      "name": "sharing",
+      "passed": true
+    },
+    {
+      "name": "maintenance",
+      "passed": true
+    },
+    {
+      "name": "online",
+      "passed": true
+    },
+    {
+      "name": "submission",
+      "passed": true
+    },
+    {
+      "name": "ui-polish",
+      "passed": true
+    },
+    {
+      "name": "remote-playback",
+      "passed": true
+    },
+    {
+      "name": "remote-session",
+      "passed": true
+    },
+    {
+      "name": "offline-playback",
+      "passed": true
+    }
+  ],
+  "executable_checks": [
+    {
+      "name": "playback",
+      "passed": true
+    },
+    {
+      "name": "sharing",
+      "passed": true
+    },
+    {
+      "name": "maintenance",
+      "passed": true
+    },
+    {
+      "name": "online",
+      "passed": true
+    },
+    {
+      "name": "submission",
+      "passed": true
+    },
+    {
+      "name": "ui-polish",
+      "passed": true
+    },
+    {
+      "name": "remote-playback",
+      "passed": true
+    },
+    {
+      "name": "remote-session",
+      "passed": true
+    },
+    {
+      "name": "offline-playback",
+      "passed": true
+    }
+  ],
+  "source_modules_match_executable": 75,
+  "fresh_start_regression": {
+    "empty_update_folder_initial_settings_and_backup_persisted": true,
+    "first_shared_and_midi_import_restart_no_false_recovery_warning": true,
+    "assigned_hotkey_survives_another_restart_and_notes_unchanged": true,
+    "initial_and_backup_write_failures_explained": true,
+    "concurrently_created_settings_not_overwritten": true,
+    "missing_old_settings_and_invalid_backup_protection_preserved": true
+  },
+  "default_data": {
+    "songs": 29,
+    "original_midis": 9,
+    "source_default_bytes_identical": true,
+    "default_settings_bytes_identical": true,
+    "no_personal_cache_receipts_or_development_tree": true,
+    "bundled_internal_self_test_fixtures_allowed": true
+  },
+  "user_data_files_preserved_byte_for_byte": 18,
+  "zip_integrity_and_paths_verified": true,
+  "real_game_playback_tested": false,
+  "real_audio_tested": false,
+  "server_changed": false
+}
